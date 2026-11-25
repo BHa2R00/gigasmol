@@ -1,0 +1,7 @@
+(inc "init.as")
+(main)
+(set #x2108 (const #x3D))
+(set #x2109 (const #x04))
+((c "hello world!") (uputc (const c))) 
+(uputc (const #\Newline)) (uputc (const #\Return))
+(quit)

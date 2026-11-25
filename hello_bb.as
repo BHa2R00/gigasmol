@@ -1,0 +1,10 @@
+(inc "init.as")
+(main)
+(set io_i_a0 (const 1))
+(set io_oe_a0 (const #b1))
+(set io_os_a0 (const 0))
+(set tmr_sel_a0 (const 1))
+(set baud (const 17)) ;; timer/from for 115200 baudrate from 25MHz timer clock 
+((c "hello world!") (putc (const c))) 
+(putc (const #\Newline)) (putc (const #\Return))
+(quit)
